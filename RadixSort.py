@@ -9,3 +9,6 @@ def radixSort(arr):
         # 按当前桶的顺序重排列表
         arr=[j for i in bucket_list for j in i]
     return arr
+# example
+array = [1, 3, 4, 8, 5]
+sort = radixSort(array)
